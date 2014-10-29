@@ -1,0 +1,15 @@
+{
+  "name": "grunt-whatever",
+  "version": "0.0.0",
+  "description": "Grunt bindings for mfax or whatever",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "messageformat-xml": "~0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Eli Mallon",
+  "license": "ISC"
+}
