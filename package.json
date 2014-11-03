@@ -4,7 +4,7 @@
   "description": "Grunt bindings for ",
   "main": "Gruntfile.js",
   "dependencies": {
-    "messageformat-converter": "~0.0.1"
+    "messageformat-converter": "~0.0.2"
   },
   "devDependencies": {},
   "scripts": {
