@@ -15,15 +15,9 @@ module.exports = function(grunt) {
         grunt.verbose.or.writeln('converting ' + this.files.length + ' file(s)');
 
         this.files.forEach(function(file){
-            try {
-                var contents = grunt.file.read(file.src);
-                var output = mconv.convertFile(contents).from(self.options().from).to(self.options().to);
-                grunt.file.write(file.dest, output);
-            }
-            catch (e) {
-                console.error(e.stack);
-                throw e;
-            }
+            var contents = grunt.file.read(file.src);
+            var output = mconv.convertFile(contents).from(self.options().from).to(self.options().to);
+            grunt.file.write(file.dest, output);
         });
 
     });
