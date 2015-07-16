@@ -1,6 +1,8 @@
 grunt-messageformat-converter
 =============================
 
+[![Join the chat at https://gitter.im/ActiveBuilding/grunt-messageformat-converter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ActiveBuilding/grunt-messageformat-converter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Grunt bindings for [messageformat-converter](https://github.com/ActiveBuilding/messageformat-converter)
 
 License
